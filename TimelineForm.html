@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html ng-app="formApp">
+<head>
+    <title></title>
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.justifiedgallery.css" type="text/css" media="all" />
+</head>
+
+<body>
+    <br>
+    <br>
+    <div class="container well" style="width:100%;">
+
+    <script type="text/javascript">var submitted=false;</script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='https://will.tcdev.me/charlie/2014/02/timeline/';}"></iframe> <!--REPLACE WITH REDIRECT LINK-->
+    <form action="https://docs.google.com/forms/d/1JlGM4KOnGfHF5HoOP-FqMBYV-iH2USUewORegNBDSLU/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+
+    <!--Left Column Start -->
+            <div class="col-md-6">
+
+            <div class="ss-form-question">
+                <div class="ss-item ss-text" dir="ltr">
+                    <div class="ss-form-entry">
+                        <div class="ss-q-title">
+                            <label class="ss-q-item-label" for="entry_1940941374">Headline</label>
+                            <br>
+                        </div>
+
+                        <div class="ss-q-help ss-secondary-text" dir="ltr">
+                            <label class="ss-q-item-label" for="entry_1940941374">(A very brief description of
+                            your first memory of the internet)</label>
+                        </div>
+                            <input class="ss-q-short" dir="auto" id="entry_1940941374" name="entry.1940941374" title="" type="text" value="" placeholder="Example: 'The Dial-Up Tone'">
+
+                        <div class="error-message"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ss-form-question">
+                <div class="ss-item ss-item-required ss-date" dir="ltr">
+                    <div class="ss-form-entry">
+                        <div class="ss-q-title">
+                            <label class="ss-q-item-label" for=
+                            "entry_223797095">What was the date of your memory?
+                            </label>
+                        </div>
+
+                        <div class="ss-q-help ss-secondary-text" dir="ltr">
+                        </div><input class="ss-q-date" dir="auto" id=
+                        "entry_223797095" name="entry.223797095" required=""
+                        type="date" value="">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="ss-form-question">
+                <div class="ss-item ss-paragraph-text" dir="ltr">
+                    <div class="ss-form-entry">
+                        <div class="ss-q-title">
+                            <label class="ss-q-item-label" for=
+                            "entry_903626388">What was your first memory of the
+                            internet?</label>
+                        </div>
+
+                        <div class="ss-q-help ss-secondary-text" dir="ltr">
+                        </div>
+                        <textarea class="ss-q-long" cols="0" dir="auto" id=
+                        "entry_903626388" name="entry.903626388" rows="8" placeholder="Example: My first memory of the internet was the sound of my modem connecting to the internet. I still remember how it wasn't possible to use the internet and the phone line at the same time.">
+</textarea>
+
+                    </div>
+                </div>
+            </div>
+
+            </div>
+            <!--Left Column End -->
+            <!--Right Column Start -->
+            <div class="col-md-6">
+            <br>
+             <div class="ss-form-question">
+                <div class="ss-item ss-text" dir="ltr">
+                    <div class="ss-form-entry">
+                        <div class="ss-q-title">
+                            <label class="ss-q-item-label" for="entry_343155255">Insert a link to an image here, or search for one below:</label>
+                        </div>
+
+                        <div class="ss-q-help ss-secondary-text" dir="ltr">
+                        </div>
+                        <input class="ss-q-short image-entry" dir="auto" id="entry_343155255" name="entry.343155255" title="" type="text" value="">
+                        <div class="error-message"></div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+           <input name="draftResponse" type="hidden" value=
+            "[,,&quot;-7578212691605999876&quot;] "> <input name="pageHistory"
+            type="hidden" value="0"> <input name="fromEmail" type="hidden"
+            value="false"> <input name="fbzx" type="hidden" value=
+            "-7578212691605999876">
+    </form>
+
+    <div class="input-group">
+        <input type="text" id="imageQuery" class="form-control" placeholder="e.g. 'Dial up modem'">
+            <div class="input-group-btn">
+            <div class="input-group-btn">
+                <button type="button" class="btn btn-default dropdown-toggle sort-display" data-toggle="dropdown">Popularity <span class="caret"></span></button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <li role="presentation" class="active"><a class="search-option" role="menuitem" value="interestingness-desc" tabindex="-1" href="#">Popularity</a></li>
+                    <li role="presentation"><a class="search-option" role="menuitem" value="relevance" tabindex="-1" href="#">Relevance</a></li>
+                    <li role="presentation"><a class="search-option" role="menuitem" value="date-posted-desc" tabindex="-1" href="#">Recency</a></li>
+                </ul>
+            </div>
+            </div>
+            <span class="input-group-btn">
+                    <button id="imageSearchButton" class="btn btn-default" type="button">Search!</button>
+                </span>
+    </div>
+    <br>
+    <br>
+    <div class="ss-item ss-navigate">
+                <table id="navigation-table">
+                    <tbody>
+                        <tr>
+                            <td class="ss-form-entry goog-inline-block" dir=
+                            "ltr" id="navigation-buttons">
+                                <button id="ss-submit" class="btn btn-lg btn-success" name="submit" type=
+                                "submit" value="Submit">Submit to Timeline</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                  <span class="glyphicon glyphicon-picture" style="font-size: 40px;"></span>
+                </a>
+              </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+              <div class="panel-body">
+                <div id="images" class="col-md-12"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div> 
+</body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/waitforimages.js"></script>
+    <script type="text/javascript" src="js/jquery.justifiedgallery.js"></script>
+    <script type="text/javascript" src="js/controller.js"></script>
+
+</html>
